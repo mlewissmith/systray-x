@@ -24,6 +24,6 @@ systray-x-app:
 	mkdir -p app/build ;\
 	cd app/build ;\
 	$(QMAKE) ../SysTray-X/SysTray-X.pro ;\
-	make ;\
+	$(MAKE) ;\
 	cd ../.. ;\
 	cp app/build/SysTray-X .
